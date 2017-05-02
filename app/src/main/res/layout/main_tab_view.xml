@@ -1,0 +1,90 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/main_bottom_tab_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/main_bottom_tab_1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="首页"
+            android:textSize="9sp"
+            android:paddingTop="7dp"
+            android:paddingBottom="6dp"
+            android:drawablePadding="6dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/main_bottom_tab_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/main_bottom_tab_2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="发现"
+            android:textSize="9sp"
+            android:paddingTop="7dp"
+            android:paddingBottom="6dp"
+            android:drawablePadding="6dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/main_bottom_tab_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/main_bottom_tab_3_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="关注"
+            android:textSize="9sp"
+            android:paddingTop="7dp"
+            android:paddingBottom="6dp"
+            android:drawablePadding="6dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/main_bottom_tab_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/main_bottom_tab_4_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:text="我的"
+            android:textSize="9sp"
+            android:paddingTop="7dp"
+            android:paddingBottom="6dp"
+            android:drawablePadding="6dp" />
+
+    </FrameLayout>
+</merge>
